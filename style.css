@@ -1,15 +1,99 @@
 body{
+    color: white;
     margin: 0px;
-    padding:0px;
-    background:url("/pexels-photo-459791.jpeg")
+    padding: 0px;
+    background-image: url(/pexels-photo-459791.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1550px 800px;
+    font-family: 'Baloo 2', cursive;
 }
-h1{
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+left: 20px;
+top: 10px;
+}
+.left img{
+    width: 120px;
+}
+.left div{
     text-align: center;
-    color: rgb(195, 198, 204);
-    
+    color: yellow;
+    font-size: 18px;
+}
+.mid{
+/* border: 2px solid rgb(25, 173, 25); */
+width: 53%;
+display: block;
+margin: 20px auto;
+
+
 
 }
-p{
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 25px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: wheat;
+}
+.right{
+/* border: 2px solid peru; */
+display: inline-block;
+position: absolute;
+right:14px;
+top: 20px;
+}
+.btn{
+    margin: 15px 9px;
+    color:black;
+    background-color:wheat;
+    padding: 4px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    border:2px solid gray;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: red;
+    background-color: cornsilk;
+}
+.container{
+    /* border: 2px solid grey; */
+    margin-top: 306px;
+    padding-top: 14px;
+    width: 33%;
+    margin-left: 470px;
+}
+.formgroup input{
     text-align: center;
-    color:beige;
+    display: block;
+    margin: 2px auto;
+    font-size: 20px;
+    padding: 2px;
+    width: 333px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Baloo 2', cursive;
+}
+.container h1{
+    text-align: center;
+    color:brown;
+}
+.container button{
+    display: block;
+    margin:auto;
+    width: 88px;
 }
